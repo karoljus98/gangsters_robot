@@ -5,10 +5,10 @@ from selenium.webdriver.common.by import By
 from credentials import user_login, user_password
 from selenium.webdriver.chrome.options import Options
 
-options = Options()
-options.add_argument('--headless=new')
+# options = Options()
+# options.add_argument('--headless=new')
 
-driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
+driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()))#, options=options)
 
 def logging_in():
     """

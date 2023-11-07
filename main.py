@@ -4,7 +4,7 @@ import gym
 import ring
 
 driver.get("https://g2.gangsters.pl/")
-#driver.maximize_window()
+driver.maximize_window()
 
 logging_in()
 fast_action.fast_action()
